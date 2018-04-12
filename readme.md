@@ -2,6 +2,8 @@
 
 突破百度地图API返回数据量限制，抓取百度地图数据
 
+基于python3
+
     1. 修改main.py中55行的ak
     2. 补完dataHandle.py中的数据库连接方法
     3. 根据baidu.sql的代码创建一个数据表及对应的库
