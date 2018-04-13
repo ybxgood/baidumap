@@ -1,4 +1,4 @@
-CREATE TABLE baidumap.address (
+CREATE TABLE baidumap.address2 (
 id INTEGER PRIMARY KEY auto_increment,
 uid VARCHAR ( 24 ) NOT NULL,
 aname VARCHAR ( 100 ) NOT NULL,

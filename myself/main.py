@@ -106,4 +106,4 @@ def main(keyword, city, delta_y=0.05, delta_x=0.05):
 
 if __name__ == '__main__':
 
-    main('加油站', '新余市')
+    main('酒店', '太原市')

@@ -16,7 +16,7 @@ class DataHandle:
     def save_data(self, datas):
         try:
             for a in datas:
-                sql = "INSERT INTO baidumap.address(uid, aname, lng, lat, address, telephone, keyword) VALUES('%s','%s',%s,%s,'%s','%s','%s');" % (
+                sql = "INSERT INTO baidumap.address2(uid, aname, lng, lat, address, telephone, keyword) VALUES('%s','%s',%s,%s,'%s','%s','%s');" % (
                     a[0], a[1], str(a[2]), str(a[3]), a[4], a[5], a[6])
                 self.cursor.execute(sql)
             self.conn.commit()

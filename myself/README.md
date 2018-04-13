@@ -1,2 +1,0 @@
-# BaiduMapSpider
-突破百度地图API返回数据量限制，抓取百度地图数据
